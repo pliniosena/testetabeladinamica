@@ -9,8 +9,8 @@ const GerarTabela =()=>{
     const tabelaBichos = document.querySelector('#tabelaBichos');
     const tabelaBody = document.createElement('tbody');
     const tabelaHead = document.createElement('thead')
-    const tabelaHeadUm = document.createElement('thead');
-    const tabelaHeaDois = document.createElement('thead');
+    const tabelaHeadUm = document.createElement('th');
+    const tabelaHeaDois = document.createElement('th');
   
     tabelaHeadUm.textContent='animais terrestres';
     tabelaHeaDois.textContent='animais aquaticos';
